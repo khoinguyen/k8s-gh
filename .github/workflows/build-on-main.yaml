@@ -33,6 +33,7 @@ jobs:
           tags: |
             type=edge,branch=main
             type=ref,event=tag
+            type=sha
       - name: debug
         run: |
           echo ${{ steps.meta.outputs.tags }}
