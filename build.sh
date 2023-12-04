@@ -1,0 +1,1 @@
+docker build -t k8s-gh:latest --platform linux/arm64 .  --progress=plain 2>&1 | tee build.log
